@@ -1,8 +1,86 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* Adapted from the class Week 4 CSS example. */
+* {
+  box-sizing: border-box;
 }
 
-a {
-  color: #00B7FF;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f9f9;
+  color: #222;
+}
+
+/* Give the navigation room and allow links to wrap. */
+.navbar {
+  padding: 20px;
+}
+
+.navbar .container-fluid,
+.navbar-nav {
+  flex-wrap: wrap;
+}
+
+.navbar-nav {
+  gap: 12px;
+}
+
+/* Shared content area for all four pages. */
+main.container {
+  background-color: white;
+  padding: 40px 24px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #013a40;
+  margin-bottom: 24px;
+}
+
+h2 {
+  color: #028090;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+main a {
+  color: #028090;
+}
+
+main a:hover {
+  color: #013a40;
+}
+
+/* Shared footer and profile links. */
+footer {
+  background-color: #013a40;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 10px;
+}
+
+footer a {
+  color: white;
+}
+
+/* Reduce spacing on smaller screens. */
+@media (max-width: 600px) {
+  .navbar {
+    padding: 12px;
+  }
+
+  main.container {
+    padding: 24px 16px;
+  }
 }
