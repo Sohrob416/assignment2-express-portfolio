@@ -1,12 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title><%= title %></title>
-</head>
-<body>
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+
+<main class="container">
   <h1><%= title %></h1>
+
   <p>Feel free to reach out if you'd like to talk about my projects
     or connect about an IT opportunity.</p>
-</body>
-</html>
+
+  <p>
+    <a href="https://github.com/Sohrob416">
+      <i class="fa-brands fa-github"></i> Visit my GitHub profile
+    </a>
+  </p>
+</main>
+
+<%- include partials/footer.ejs %>
