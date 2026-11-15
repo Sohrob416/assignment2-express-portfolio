@@ -75,3 +75,13 @@ email application.
 My LinkedIn profile has my name, my school Ontario Tech University, what program im currently in
 Networking and IT Security program, and the year I started.
 https://www.linkedin.com/in/sohrob-niazi-a9184a44b/
+
+## Deployment
+
+The portfolio is hosted on Render.
+
+Live website:
+https://assignment2-express-portfolio-gysv.onrender.com/
+
+GitHub repository:
+https://github.com/Sohrob416/assignment2-express-portfolio
