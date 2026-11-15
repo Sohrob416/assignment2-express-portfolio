@@ -84,3 +84,24 @@ footer a {
     padding: 24px 16px;
   }
 }
+
+#projects {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#projects .card {
+  background-color: #f4f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+  min-width: 200px;
+}
+
+@media (max-width: 600px) {
+  #projects {
+    flex-direction: column;
+  }
+}
