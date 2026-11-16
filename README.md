@@ -10,22 +10,6 @@ INFR3120 – Web and Scripting Programming
 This project is a portfolio about me I used Node.js, Express, and EJS to create my portfolio the pages home, about me, projects, and contact me.
 
 
-## Running locally
-
-Install the dependencies:
-
-```powershell
-npm.cmd install
-```
-
-Start the server:
-
-```powershell
-npm.cmd start
-```
-
-Open http://localhost:3000 in a browser.
-
 ## Project structure
 
 - app.js configures Express, EJS, static files, and routers.
@@ -60,8 +44,7 @@ and footer to keep the layout consistent.
 - Font Awesome provides the navigation and GitHub icons.
   https://fontawesome.com/
 
-Bootstrap and Font Awesome were installed through npm, and their
-required assets were copied into the public folder.
+
 
 ### AI assistance
 
